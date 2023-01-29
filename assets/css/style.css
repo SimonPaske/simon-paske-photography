@@ -41,3 +41,19 @@ h1, h2 {
     height: auto;
     padding: 30px;
 }
+
+.navbtn {
+    margin: 30px;
+    color: red;
+    background-color: transparent;
+    border: none;
+    font-size: 48px;
+}
+
+.navbtn, p {
+    font-size: 20px; 
+    float: left;
+    text-align:left;
+    padding: 20px;
+    background-color: transparent;
+}
