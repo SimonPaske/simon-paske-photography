@@ -99,3 +99,9 @@ h1, h2 {
     color: black;
     opacity: .8;
 }
+
+header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
