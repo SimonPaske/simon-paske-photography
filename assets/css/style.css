@@ -34,8 +34,8 @@ h1, h2 {
 
 #logo {
     float: right;
-    margin-right: 27em;
-    text-align: center;
+    margin-right:  500px;
+    text-align: left;
     background-color: black;
     width: 300px;
     height: auto;
@@ -101,7 +101,25 @@ h1, h2 {
 }
 
 header {
-    background-color: black;
-    position: fixed;
+  width: 1600px;
+  height: 50vw;
+  margin: auto;
+  display: block;
+  height: 150px;
+  position: inherit;
+  background-color: black;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.frame {
+    background-color: grey;
+    margin: 50px;
     width: 100%;
+}
+
+.outer-body {
+    background-color: black;
+    max-width: 1900px;
+    height: 600px;
 }
