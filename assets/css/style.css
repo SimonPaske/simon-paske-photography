@@ -1,3 +1,25 @@
+@import url("https://use.typekit.net/ziw3toi.css");
+
+/* Liberation Sans Regular
+font-family: "liberation-sans", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Liberation Sans Bold
+font-family: "liberation-sans", sans-serif;
+font-weight: 700;
+font-style: normal; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
 body {
-    font-family: Arial;
+    font-family: liberation-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
