@@ -122,8 +122,17 @@ header {
 .outer-body {
     background-color: black;
     max-width: 1600px;
-    height: 600px;
+    height: 800px;
     margin: auto;
     display: block;
     overflow: auto;
+}
+
+.inner-body-content {
+    background-color: white;
+    width: 1100px;
+    height: 780px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
 }
