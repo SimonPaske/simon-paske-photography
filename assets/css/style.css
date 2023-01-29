@@ -22,6 +22,7 @@ body {
     font-family: liberation-sans, sans-serif;
     font-weight: 400;
     font-style: normal;
+    max-width: 100%;
 }
 
 h1, h2 {
@@ -34,7 +35,7 @@ h1, h2 {
 
 #logo {
     float: right;
-    margin-right:  500px;
+    margin-right: 600px;
     text-align: left;
     background-color: black;
     width: 300px;
@@ -112,14 +113,17 @@ header {
   border-top-left-radius: 10px;
 }
 
-.frame {
+/* .frame {
     background-color: grey;
     margin: 50px;
     width: 100%;
-}
+} */
 
 .outer-body {
     background-color: black;
-    max-width: 1900px;
+    max-width: 1600px;
     height: 600px;
+    margin: auto;
+    display: block;
+    overflow: auto;
 }
