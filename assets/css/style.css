@@ -129,7 +129,8 @@ header {
 }
 
 .inner-body-content {
-    background-color: white;
+    /* black just for video */
+    background-color: black; 
     width: 1100px;
     height: 780px;
     text-align: center;
@@ -137,8 +138,8 @@ header {
     border-radius: 10px;
 }
 
-/* .video {
-    margin: 300px auto;
-    width: 1100px;
+.video {
+    max-width: 100%;
     height: auto;
-} */
+    margin-top: 10%;
+}
