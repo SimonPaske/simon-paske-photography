@@ -114,12 +114,6 @@ header {
   border-top-left-radius: 10px;
 }
 
-/* .frame {
-    background-color: grey;
-    margin: 50px;
-    width: 100%;
-} */
-
 .outer-body {
     background-color: black;
     max-width: 1600px;
@@ -130,7 +124,7 @@ header {
 }
 
 .inner-body-content {
-    background-color: white; 
+    background-color: whitesmoke; 
     width: 1100px;
     height: 780px;
     text-align: center;
@@ -139,12 +133,14 @@ header {
     padding: 20px;
     overflow: auto;
 }
-
-.video {
-    width: auto;
+ .hero-image {
+    width: 70%;
     height: auto;
-    margin: 50px 0;
-}
+    background-position: center;
+    padding: 30px 0 60px 0;
+    border-radius: 10px;
+
+ }
 
 .footer {
     position: relative;
