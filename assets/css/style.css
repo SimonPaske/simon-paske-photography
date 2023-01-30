@@ -70,7 +70,7 @@ h1, h2 {
 #dropdown-menu {
     margin: 110px 60px;
     display: none;
-    position: absolute;
+    position: relative;
     background-color: grey;
     list-style: none;
     text-align: right;
@@ -148,7 +148,7 @@ header {
 .footer {
     position: relative;
     width: 1500px;
-    height: 180px;
+    height: 150px;
     background: black;
     /* min-height: 100px; */
     padding: 20px 50px;
