@@ -192,11 +192,15 @@ header {
   .sign-form-photo {
     width: 200px;
     height: auto;
+    
   }
 
   .sign-form {
     margin: 160px 10px 0 0;
     background-color: grey;
     max-width: 500px;
+    text-align: center;
+    text-justify: auto;
+    position: relative;
 
   }
