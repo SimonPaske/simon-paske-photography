@@ -142,10 +142,49 @@ header {
 .video {
     max-width: 100%;
     height: auto;
-    margin-top: 10%;
+    margin: 50px 0;
 }
 
 .footer {
-    width: 1600px;
-    
-}
+    position: relative;
+    width: 1500px;
+    height: 180px;
+    background: black;
+    /* min-height: 100px; */
+    padding: 20px 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+   .social-icon,
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  .social-icon__item,
+  .menu__item {
+    list-style: none;
+  }
+  
+  .social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.3s;
+  }
+
+  /* SOKINEJA IKONOS */
+  .social-icon__link:hover {
+    transform: translateY(-10px);
+  }
