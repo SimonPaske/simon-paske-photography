@@ -26,16 +26,19 @@ font-style: normal;
     border: 0;
 }
 
-.msg, .text-input, textarea, label, .sign-form, h3, h2, h1, p {
+.msg, .text-input, textarea, label, .sign-form, h3, h2, h1, p, .send-button, a, .navbtn {
   font-family: "neue-kabel", sans-serif;
 }
 
-.send-button, .msg, .form-section, .hero-image, .navbtn, .text-input, .promovideo, .inner-body-content, #dropdown-menu, .navbtn {
+.send-button, .msg, .form-section, .hero-image, .navbtn, .text-input, .promovideo, .inner-body-content, #dropdown-menu {
   border-radius: 10px;
 }
-
+a {
+  font-size: 20px;
+}
 p {
     font-weight: 400;
+    font-size: 16px;
     font-style: normal;
     padding: auto;
 }
@@ -326,7 +329,7 @@ header {
     padding: 10px;
     margin: 15px;
     border: 1px solid grey;
-    font-family:"neue-kabel",sans-serif;
+    /* font-family:"neue-kabel",sans-serif; */
     background-color:rgb(179, 179, 179);
     justify-content: center;
     transition:all .3s ;
