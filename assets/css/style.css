@@ -49,10 +49,10 @@ h1 {
 }
 
 #logo {
-    float: right;
-    margin-right: 650px;
-    margin-top: 50px;
-    text-align: left;
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
     background-color: transparent;
     width: 300px;
     height: auto;
