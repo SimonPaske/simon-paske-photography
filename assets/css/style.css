@@ -139,7 +139,7 @@ header {
 }
 
 .inner-body-content {
-    background-color: whitesmoke; 
+    background-color: rgb(243, 219, 183);
     width: 1100px;
     height: 780px;
     text-align: center;
@@ -149,19 +149,29 @@ header {
     overflow: auto;
 }
 
+.text-section {
+  width: 100%;
+  height: 90%;
+  margin: 0 auto;
+}
+
  .hero-image {
     width: 100%;
     height: auto;
     padding: 0;
     margin-bottom: 100px;
     border-radius: 10px;
-   
  }
 
+ .arrow-down {
+  width: 100%;
+  text-align: center;
+ }
 
 .promovideo {
   padding-top: 50px;
   margin: 60px;
+  border-radius: 10px;
 }
 
 .footer {
