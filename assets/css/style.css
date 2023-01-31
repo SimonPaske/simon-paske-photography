@@ -8,7 +8,29 @@ font-style: normal;
 Liberation Sans Bold
 font-family: "liberation-sans", sans-serif;
 font-weight: 700;
-font-style: normal; */
+font-style: normal; 
+
+Soleil Regular
+font-family: "soleil", sans-serif;
+font-weight: 400;
+font-style: normal;
+Soleil Book
+font-family: "soleil", sans-serif;
+font-weight: 500;
+font-style: normal;
+Soleil Semibold
+font-family: "soleil", sans-serif;
+font-weight: 600;
+font-style: normal;
+Soleil Bold
+font-family: "soleil", sans-serif;
+font-weight: 700;
+font-style: normal;
+Soleil Extrabold
+font-family: "soleil", sans-serif;
+font-weight: 800;
+font-style: normal;
+*/
 
 
 *{
@@ -19,18 +41,24 @@ font-style: normal; */
 
 
 p {
-    font-family: "liberation-sans", sans-serif;
+    font-family: "solei", sans-serif;
     font-weight: 400;
     font-style: normal;
     padding: auto;
 }
 
-h1, h2 {
-    font-family: "arimo", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: xx-large;
+h2 {
+    font-family: "Soleil", sans-serif;
     letter-spacing: 2px;
+}
+
+h1 {
+  font-family: "solei", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
 }
 
 #logo {
