@@ -26,26 +26,33 @@ font-style: normal;
     border: 0;
 }
 
+.msg, .text-input, textarea, label, .sign-form, h3, h2, h1, p {
+  font-family: "neue-kabel", sans-serif;
+}
 
 p {
-    font-family: "neue-kabel", sans-serif;
     font-weight: 400;
     font-style: normal;
     padding: auto;
 }
 
-h2 {
-    font-family: "neue-kabel", sans-serif;
-    letter-spacing: 2px;
-}
-
 h1 {
-  font-family: "neue-kabel", sans-serif;
   font-weight: 900;
   font-style:normal;
   font-size: 50px;
   letter-spacing: 2px;
   margin-bottom: 30px;
+}
+
+h2 {
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  padding-bottom: 20px;
 }
 
 #logo {
@@ -141,7 +148,7 @@ header {
 .inner-body-content {
     background-color: rgb(243, 219, 183);
     width: 1100px;
-    height: 780px;
+    height: 90%;
     text-align: center;
     margin: 0 auto;
     border-radius: 10px;
@@ -224,14 +231,108 @@ header {
     
   }
 
-  .sign-form {
-    margin: 160px 10px 0 0;
-    background-color: grey;
-    max-width: 500px;
-    text-align: center;
-    text-justify: auto;
-    position: relative;
-
+  .form-section {
+    margin: auto;
+   
   }
+
+  .sign-form {
+    position: absolute;
+    left: 50%;
+    padding: 30px;
+    transform: translate(-50%, -50%);
+    /* margin: 160px 10px 0 0; */
+    background-color: grey;
+    width: 50%;
+    height: 50%;
+    /* text-align: center;
+    text-justify: auto; */
+    box-shadow: 0 0 40px -10px #000;
+    margin: calc(55vh - 220px) auto;
+    border-radius: 10px;
+    
+  }
+
+  .sign-form {
+    padding-bottom:30px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  h3, label, input, textarea, .send-button {
+    text-shadow: grey 5px -5px 10px;
+    padding: 5px 10px;
+  }
+  
+  label {
+    font-weight: 600;
+    font-size: 20px;
+    display: block;
+    /* padding: 5px 0; */
+    margin: 10px 0 0 0;
+    position: relative;
+    color: white;
+  }
+
+  .text-input {
+    display: grid;
+    
+    /* font-size: 16px; */
+    /* padding-left: 10px; */
+    width: 60%;
+    height: 30px;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 16px;
+    justify-content: center;
+    position: relative; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    margin-bottom: 10px;
+    /* margin-left: -200px; */
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+    
+  }
+
+  input::placeholder, textarea {
+    margin: 5px;
+    font-weight: 400;
+  }
+
+  .msg {
+    font-weight: 400;
+    font-size: 20px;
+    height: 150px;
+    width: 100%;
+    /* padding: auto; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    resize: none;
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+    overflow: auto;
+  }
+
+  .send-button {
+    left: 50%;
+    width: 80px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-family:"neue-kabel",sans-serif;
+    background-color:rgb(179, 179, 179);
+    justify-content: center;
+    transition:all .3s ;
+  }
+  
+    .send-button:hover {
+        background-color: rgb(244, 61, 61);
+        color: black;
+        opacity: .8;
+    }
 
   
