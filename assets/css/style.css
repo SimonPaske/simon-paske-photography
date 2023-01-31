@@ -30,6 +30,10 @@ font-style: normal;
   font-family: "neue-kabel", sans-serif;
 }
 
+.send-button, .msg, .form-section, .hero-image, .navbtn, .text-input, .promovideo, .inner-body-content, #dropdown-menu, .navbtn {
+  border-radius: 10px;
+}
+
 p {
     font-weight: 400;
     font-style: normal;
@@ -72,7 +76,7 @@ h3 {
     background-color: transparent;
     border: none;
     font-size: 48px;
-    border-radius: 10px;
+    
     padding: 20px;
 }
 
@@ -97,7 +101,7 @@ h3 {
     list-style: none;
     text-align: right;
     min-width: 160px;
-    border-radius: 10px;
+    
     padding: 30px;
 }
 
@@ -151,7 +155,6 @@ header {
     height: 90%;
     text-align: center;
     margin: 0 auto;
-    border-radius: 10px;
     padding: 20px;
     overflow: auto;
 }
@@ -167,7 +170,7 @@ header {
     height: auto;
     padding: 0;
     margin-bottom: 100px;
-    border-radius: 10px;
+   
  }
 
  .arrow-down {
@@ -178,7 +181,7 @@ header {
 .promovideo {
   padding-top: 50px;
   margin: 60px;
-  border-radius: 10px;
+  
 }
 
 .footer {
@@ -225,39 +228,41 @@ header {
     transform: translateY(-10px);
   }
 
-  .sign-form-photo {
+  /* .sign-form-photo {
     width: 200px;
-    height: auto;
-    
-  }
+    height: auto; 
+  } */
 
-  .form-section {
-    margin: auto;
-   
+   .form-section  {
+    margin: 0 auto;
+    padding: 0 auto;
+    display: grid;
+    width: 70%;
+    height: 80%;
+    background-color: grey;
+    scroll-behavior: auto;
+    box-shadow: 0 0 40px -10px #000;
+    margin: calc(25vh - 180px) auto;
+    position: relative;
   }
 
   .sign-form {
+    height: auto;
+  }
+
+  /* .sign-form {
     position: absolute;
     left: 50%;
     padding: 30px;
     transform: translate(-50%, -50%);
-    /* margin: 160px 10px 0 0; */
-    background-color: grey;
-    width: 50%;
-    height: 50%;
-    /* text-align: center;
-    text-justify: auto; */
-    box-shadow: 0 0 40px -10px #000;
-    margin: calc(55vh - 220px) auto;
-    border-radius: 10px;
-    
-  }
-
-  .sign-form {
     padding-bottom:30px;
     text-align: center;
     justify-content: center;
-  }
+  
+    
+   
+    
+  } */
 
   h3, label, input, textarea, .send-button {
     text-shadow: grey 5px -5px 10px;
@@ -276,7 +281,6 @@ header {
 
   .text-input {
     display: grid;
-    
     /* font-size: 16px; */
     /* padding-left: 10px; */
     width: 60%;
@@ -291,7 +295,6 @@ header {
     margin-bottom: 10px;
     /* margin-left: -200px; */
     background-color: rgb(221, 221, 221);
-    border-radius: 10px;
     
   }
 
@@ -304,24 +307,24 @@ header {
     font-weight: 400;
     font-size: 20px;
     height: 150px;
-    width: 100%;
+    width: 500px;
     /* padding: auto; */
     margin: auto;
-    display: flex;
-    align-items: center;
+    display: grid;
+    /* align-items: center;
     justify-content: center;
-    resize: none;
+    resize: none; */
     background-color: rgb(221, 221, 221);
-    border-radius: 10px;
     overflow: auto;
   }
+
+  
 
   .send-button {
     left: 50%;
     width: 80px;
     padding: 10px;
     margin: 15px;
-    border-radius: 10px;
     border: 1px solid grey;
     font-family:"neue-kabel",sans-serif;
     background-color:rgb(179, 179, 179);
