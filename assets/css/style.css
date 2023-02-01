@@ -245,7 +245,7 @@ header {
     background-color: grey;
     scroll-behavior: auto;
     box-shadow: 0 0 40px -10px #000;
-    margin: calc(25vh - 180px) auto;
+    margin-block: 60px;
     position: relative;
   }
 
