@@ -97,7 +97,7 @@ h3 {
 
 #dropdown-menu {
     margin: 110px 60px;
-    display: none;
+    /* display: none; */
     position: relative;
     background-color: grey;
     list-style: none;
@@ -383,8 +383,8 @@ label {
     z-index: 3;
 }
 
-.lightbox a.next,
-.lightbox a.prev {
+.lightbox .picid .next,
+.lightbox .picid .prev {
   position: absolute;
   font-size: 30px;
   color: white;
@@ -392,12 +392,12 @@ label {
   top: 50%;
 }
 
-.lightbox img {
+.lightbox .boxfoto {
     max-width: 80%;
     max-height: 80%; 
 }
 
-.lightbox a {
+.lightbox .picid {
     position: absolute;
     top: 15px;
     right: 15px;
