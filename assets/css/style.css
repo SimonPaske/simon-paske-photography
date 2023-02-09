@@ -97,7 +97,7 @@ h3 {
 
 #dropdown-menu {
     margin: 110px 60px;
-    /* display: none; */
+    display: none;
     position: relative;
     background-color: grey;
     list-style: none;
@@ -202,7 +202,7 @@ header {
     border-bottom-left-radius: 10px;
 }
 
-.social-icon, .menu {
+.social-icon {
     position: relative;
     display: flex;
     justify-content: center;
@@ -211,7 +211,7 @@ header {
     flex-wrap: wrap;
 }
   
-.social-icon__item, .menu__item {
+.social-icon__item {
     list-style: none;
 }
   
@@ -361,7 +361,7 @@ label {
     padding: 15px 0 15px 0;   
  }
 
- .foto:hover {
+.foto:hover {
     transform: scale(110%);
     transition: .5s ease;
     opacity: 1;
