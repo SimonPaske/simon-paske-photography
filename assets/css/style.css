@@ -347,14 +347,15 @@ label {
     columns: 3;
   }
 
- .foto {
+.foto {
     width: 300px;
     height: 300px;
     padding: 3px;
-    object-fit: cover;
-    box-shadow: 0 0 40px -10px #000;
-    background-color: white;
-    opacity: 0.8;
+    object-fit: cover; 
+    background-color: white; 
+    -webkit-box-shadow: 40px 40px 40px black; 
+    -moz-box-shadow: 40px 40px 40px black;
+    box-shadow: 40px 40px 40px black;
   }
 
 .fotobox {
@@ -373,23 +374,42 @@ label {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.9);
+    background: grey;
     display: flex;
     justify-content: center;
     align-items: center;
     visibility: hidden;
-    /* opacity: 0; */
-    transition: opacity 0.5s;
     z-index: 3;
 }
 
-.lightbox .picid .next,
-.lightbox .picid .prev {
-  position: absolute;
-  font-size: 30px;
-  color: white;
-  text-decoration: none;
-  top: 50%;
+.prev ion-icon {
+    background-color: transparent;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    left: 5%;
+}
+
+.next ion-icon {
+    background-color: transparent;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    right: 5%;
+    font-size: 50px;
+    
+}
+
+.close ion-icon {
+    background-color: transparent;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    right: 5%;
+    top: 5%;
+    position: absolute;
+    font-size: 50px;
 }
 
 .lightbox .boxfoto {
@@ -406,7 +426,14 @@ label {
     text-decoration: none;
 }
 
+@keyframes lightbox {
+    from {background-color: black;}
+    to {background-color: grey;}
+}
+
 .lightbox:target {
     visibility: visible;
     opacity: 1;
+    animation-name: lightbox;
+    animation-duration: 3s;
 }
