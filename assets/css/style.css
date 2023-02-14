@@ -340,6 +340,11 @@ label {
     opacity: .8;     
 }
 
+/* safari bux fix */
+.gallery  *{
+    will-change: opacity;
+}
+
 .gallery {
     display: block;
     width: 100%;
