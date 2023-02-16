@@ -472,7 +472,7 @@ label {
     }
     .inner-body-content {
         max-width: 100%;
-        min-height: 60vh;
+        min-height: 10vh;
     }
 
     header {
@@ -494,7 +494,7 @@ label {
         padding-top: 4.0vw;
     }
     p {
-        font-size: 3.5vw;
+        font-size: 1em;
     }
     #logo {
         max-width: 30%;
@@ -503,7 +503,7 @@ label {
         /* margin-top: 1rem; */
     }
     .navbtn p {
-        font-size: 3.2vw;
+        font-size: 3vw;
         position: absolute;
         margin: 5px;
     }
@@ -517,7 +517,8 @@ label {
     }
     .menulist {
         max-width: 50px;
-        font-size: 3.5vw;
+        font-size: 2vw;
+        font-size: medium;
     }
 
     /* pakeitimai */
@@ -553,7 +554,7 @@ label {
 
     /* gallery */
     .gallery {
-        columns: 2;
+        columns: 1;
     }
     .foto {
         width: 12em;
