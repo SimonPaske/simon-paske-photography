@@ -452,17 +452,17 @@ label {
     
 }
 
-@keyframes lightbox {
+/* @keyframes lightbox {
     from {background-color: black;}
     to {background-color: whitesmoke;}
-}
+} */
 
 
 .lightbox:target {
     visibility: visible;
     opacity: 1;
-    animation-name: lightbox;
-    animation-duration: 3s;
+    /* animation-name: lightbox;
+    animation-duration: 3s; */
 }
 
 @media screen and (min-width: 300px) and (max-width: 750px) {
@@ -497,9 +497,10 @@ label {
         font-size: 1em;
     }
     #logo {
-        max-width: 30%;
+        width: 30%;
         align-items: center;
         justify-items: center;
+        margin: calc(50% -50%);
         /* margin-top: 1rem; */
     }
     .navbtn p {
