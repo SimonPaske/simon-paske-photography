@@ -210,7 +210,7 @@ header {
 
 .footer {
     position: relative;
-    width: 1500px;
+    width: 1600px;
     height: 100px;
     background: black;
     /* min-height: 100px; */
@@ -492,6 +492,7 @@ label {
     }
     #logo {
         max-width: 150px;
+        align-items: center;
     }
     .navbtn p {
         font-size: 2.2vw;
