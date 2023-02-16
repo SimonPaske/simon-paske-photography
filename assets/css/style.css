@@ -214,7 +214,7 @@ header {
     height: 100px;
     background: black;
     /* min-height: 100px; */
-    padding: 20px 50px;
+    padding: 20px 0;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -457,6 +457,7 @@ label {
     to {background-color: whitesmoke;}
 }
 
+
 .lightbox:target {
     visibility: visible;
     opacity: 1;
@@ -466,32 +467,34 @@ label {
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
     .outer-body {
-        max-width: 600px;
+        max-width: 100%;
         height: 500px;
     }
     .inner-body-content {
-        max-width: 100%;
+        max-width: 80%;
+        height: fit-content;
     }
 
     header {
-        max-width: 400px;
-        height: 100px;
+        max-width: 100%;
+        min-width: 400px;
+        
     }
     footer, .footer  {
-        max-width: 600px;
+        max-width: 100%;
         height: auto;
     }
     .hero-image {
         max-width: 25em;
     }
     h1 {
-        font-size: 2em;
+        font-size: 7vw;
     }
     #logo {
         max-width: 150px;
     }
     .navbtn p {
-        font-size: small;
+        font-size: 2.2vw;
     }
     .navbtn {
         padding: 5px;
@@ -503,7 +506,7 @@ label {
     }
     .menulist {
         max-width: 50px;
-        font-size: small;
+        font-size: 2.5vw;
     }
 
     /* pakeitimai */
@@ -534,8 +537,8 @@ label {
         margin-top: 3vw;
         font-size: medium;
     }
-    h3 {
-        font-size: 25px;
+    h3, p {
+        font-size: 2.9vw;
     }
 
     /* gallery */
@@ -548,23 +551,15 @@ label {
         object-fit: cover;
     }
     .prev ion-icon, .next ion-icon, .close ion-icon {
-        font-size: smaller;
-        padding: 3px;
-        margin: 0;
-       
+        font-size: 4.0vw;
+        margin: 0 -10px;
         
     } 
-    /* .lightbox .boxfoto {
-        width: 80%;
-        height: 80%;
-        margin: auto;
-        align-items: center;
-    } */
     .boxfoto {
-        justify-items: center;
-        align-content: center;
-        align-items: center;
-        justify-content: center;
+    position:absolute;
+    max-width:100%;
+    max-height:100%;
+    
     }
     
 }
