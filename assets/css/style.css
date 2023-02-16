@@ -414,7 +414,7 @@ label {
     background-color: transparent;
     position: absolute;
     text-decoration: none;
-    color: orange;
+    color: black;
     font-size: 50px;
     left: 5%;
 }
@@ -423,7 +423,7 @@ label {
     background-color: transparent;
     position: absolute;
     text-decoration: none;
-    color: orange;
+    color: black;
     right: 5%;
     font-size: 50px;
     
@@ -433,7 +433,7 @@ label {
     background-color: transparent;
     position: absolute;
     text-decoration: none;
-    color: orange;
+    color: black;
     right: 5%;
     top: 5%;
     position: absolute;
