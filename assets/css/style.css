@@ -52,7 +52,6 @@ p {
     display: block;
 }
 
-
 h1 {
     font-weight: 900;
     font-style:normal;
@@ -567,7 +566,6 @@ label {
     .prev ion-icon, .next ion-icon, .close ion-icon {
         font-size: 4.0vw;
         margin: 0 -10px;
-        
     } 
     .boxfoto {
     position:absolute;
