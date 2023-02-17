@@ -45,21 +45,13 @@ p {
 /* read more less sekcija */
 #readmore {
     display: none;
-    text-decoration: none;
     color: black;
     }
-    
-.menulist:hover{
-    text-decoration-color: red;
-}
-
-/* .moreless:visited {
-    color: grey;
-} */
 
 #readmore:target {
     display: block;
 }
+
 
 h1 {
     font-weight: 900;
@@ -97,12 +89,12 @@ h3 {
     color: white;
     background-color: transparent;
     border: none;
-    font-size: 48px;
+    font-size: 55px;
     padding: 20px;
 }
 
 .navbtn, p {
-    font-size: 20px; 
+    font-size: 40px; 
     float: left;
     text-align:left;
     padding: 20px;
@@ -408,6 +400,16 @@ label {
     align-items: center;
     visibility: hidden;
     z-index: 3;
+}
+
+.menuicon ion-icon {
+    background-color: transparent;
+    position: absolute;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    padding: 30px;
 }
 
 .prev ion-icon {
