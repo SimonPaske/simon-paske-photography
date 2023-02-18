@@ -26,7 +26,7 @@ font-style: normal;
     border: 0;
 }
 
-.msg, .text-input, textarea, label, .sign-form, h3, h2, h1, p, .send-button, a, .navbtn {
+.msg, .text-input, textarea, label, .sign-form, h3, h2, h1, p, .send-button, a, .navbtn, .more, .menulist {
     font-family: "neue-kabel", sans-serif;
 }
 
@@ -53,7 +53,9 @@ p {
 }
 
 .more {
-    font-size: 1em;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(0, 96, 250);
 }
 
 h1 {
@@ -115,7 +117,7 @@ h3 {
     position: relative;
     background-color: whitesmoke;
     list-style: none;
-    text-align: right;
+    /* text-align: center; */
     width: 160px;
     z-index: 555;
     padding: 30px;
@@ -126,6 +128,7 @@ h3 {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    text-align: center;
     
 }
 
@@ -145,6 +148,7 @@ h3 {
     color: black;
     opacity: .8;
     padding-right: 1em;
+    text-align: center;
 }
 
 header {
@@ -525,6 +529,7 @@ label {
     .menulist {
         max-width: 50px;
         font-size: 1em;
+        text-align: center;
     }
 
     .promovideo {
@@ -581,7 +586,7 @@ label {
     
 }
 /* for tablets up to 10" */
-@media screen and (min-width: 750px) and (max-width: 1050px) {
+@media screen and (min-width: 750px) and (max-width: 1030px) {
     .outer-body {
         max-width: 100%;
         height: auto;
@@ -611,6 +616,11 @@ label {
         max-width: 80%;
     }
 
+    h3 {
+        font-size: 3.9vw;
+        padding-top: 4.0vw;
+    }
+
     p {
         font-size: 1.7em;
     }
@@ -624,8 +634,7 @@ label {
     #dropdown-menu {
         margin: 5em 0.8em;
         max-width: min-content;
-        text-align: center;
-        font-size: larger;
+        
         /* padding: 2em 5em; */
     }
 
@@ -688,7 +697,7 @@ label {
     
     }    
 }
-
+/* For tablet up to 13" */
 @media screen and (min-width: 1050px) and (max-width: 1500px) {
     .outer-body {
         max-width: 100%;
@@ -719,7 +728,7 @@ label {
     }
 
     p {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
     .navbtn {
@@ -729,14 +738,14 @@ label {
     }
     
     #logo {
-        width: 30%;
+        /* width: 30%; */
         align-items: center;
         justify-items: center;
         margin: calc(50% -50%);
     }
 
     #dropdown-menu {
-        /* margin: 100px 35px; */
+        margin: 6em 35px;
         max-width: min-content;
     }
 
@@ -745,14 +754,10 @@ label {
         font-size: 1.5em;
         
     }
-
-    /* #dropdown-menu .menulist:hover {
-        padding: auto 200px;
-    } */
+  
     .promovideo {
         max-width: 100%;
         max-height: 100%;
-        /* padding: 0 4em 0 4em; */
         margin: 2em;
         border-radius: 10px;
         align-content: center;
@@ -792,17 +797,230 @@ label {
     }
 
     .prev ion-icon, .next ion-icon, .close ion-icon {
-        font-size: 1em;
+        font-size: 1.6em;
         margin: 0 -10px;
     } 
 
-    /* .menuicon ion-icon {
-        font-size: xx-large;
-    } */
     .boxfoto {
     position:absolute;
     max-width:100%;
     max-height:100%;
     
     }    
+}
+@media screen and (min-width: 1500px) and (max-width: 2000px) {
+    .outer-body {
+        width: auto;
+        height: auto;
+    }
+    .inner-body-content {
+        max-width: 100%;
+        min-height: 10vh;
+    }
+
+    header {
+        width: 100%;
+        min-height: 20vh; 
+    }
+
+    footer, .footer  {
+        width: 100%;
+        height: auto;
+    }
+    
+    .hero-image {
+        max-width: 80%;
+    }
+
+    h3 {
+        font-size: 3.9vw;
+        padding-top: 4.0vw;
+    }
+
+    p {
+        font-size: 2em;
+    }
+
+    .navbtn {
+        margin: 1em 0.5em;
+        font-size: 4em;
+    }
+    
+    #logo {
+
+        align-items: center;
+        justify-items: center;
+        margin: calc(50% -50%);
+    }
+
+    #dropdown-menu {
+        margin: 12em 70px;
+        max-width: min-content;
+    }
+
+    .menulist {
+        width: 100px;
+        font-size: 2em; 
+    }
+  
+    .promovideo {
+        max-width: 100%;
+        max-height: 100%;
+        margin: 2em;
+        border-radius: 10px;
+        align-content: center;
+        justify-content: center;
+    }
+   
+    /* contact */
+    .form-section {
+        width: 98%;
+        height: 98%;
+        padding: 1px;
+        margin: 1px 1px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-input, .msg, label {
+        width: 90%;
+        height: fit-content;
+        font-size: 1em;
+    }
+
+    .send-button {
+        margin-top: 3vw;
+        font-size: 1em;
+    }
+  
+    .gallery {
+        columns: 3;
+    }
+
+    .foto {
+        width: 18em;
+        height: 18em;
+        object-fit: cover;
+    }
+
+    .prev ion-icon, .next ion-icon, .close ion-icon {
+        font-size: 1.6em;
+        margin: 0 -10px;
+    } 
+
+    .boxfoto {
+    position:absolute;
+    max-width:100%;
+    max-height:100%;
+    
+    } 
+
+    @media screen and (min-width: 2000px) and (max-width: 4000px) {
+        .outer-body {
+            width: auto;
+            height: auto;
+        }
+        .inner-body-content {
+            max-width: 100%;
+            min-height: 10vh;
+        }
+    
+        header {
+            width: 100%;
+            min-height: 20vh; 
+        }
+    
+        footer, .footer  {
+            width: 100%;
+            height: auto;
+        }
+        
+        .hero-image {
+            max-width: 80%;
+        }
+    
+        h3 {
+            font-size: 3.9vw;
+            padding-top: 4.0vw;
+        }
+    
+        p {
+            font-size: 2em;
+        }
+    
+        .navbtn {
+            margin: 1em 0.5em;
+            font-size: 4em;
+        }
+        
+        #logo {
+    
+            align-items: center;
+            justify-items: center;
+            margin: calc(50% -50%);
+        }
+    
+        #dropdown-menu {
+            margin: 12em 70px;
+            max-width: min-content;
+        }
+    
+        .menulist {
+            width: 100px;
+            font-size: 2em; 
+        }
+      
+        .promovideo {
+            max-width: 100%;
+            max-height: 100%;
+            margin: 2em;
+            border-radius: 10px;
+            align-content: center;
+            justify-content: center;
+        }
+       
+        /* contact */
+        .form-section {
+            width: 98%;
+            height: 98%;
+            padding: 1px;
+            margin: 1px 1px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .text-input, .msg, label {
+            width: 90%;
+            height: fit-content;
+            font-size: 1em;
+        }
+    
+        .send-button {
+            margin-top: 3vw;
+            font-size: 1em;
+        }
+      
+        .gallery {
+            columns: 3;
+        }
+    
+        .foto {
+            width: 18em;
+            height: 18em;
+            object-fit: cover;
+        }
+    
+        .prev ion-icon, .next ion-icon, .close ion-icon {
+            font-size: 1.6em;
+            margin: 0 -10px;
+        } 
+    
+        .boxfoto {
+        position:absolute;
+        max-width:100%;
+        max-height:100%;
+        
+        }     
 }
