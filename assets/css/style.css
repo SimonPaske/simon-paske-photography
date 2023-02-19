@@ -512,7 +512,7 @@ label {
         width: 30%;
         align-items: center;
         justify-items: center;
-        margin: calc(50% -50px);
+        /* margin: calc(50% -50px); */
     }
     
     .navbtn {
@@ -606,7 +606,7 @@ label {
         max-width: 30%;
         align-items: center;
         justify-items: center;
-        margin: calc(50% -50px);
+        /* margin: calc(50% -50px); */
     }
     footer, .footer  {
         max-width: 100%;
@@ -741,7 +741,7 @@ label {
         /* width: 30%; */
         align-items: center;
         justify-items: center;
-        margin: calc(50% -50px);
+        /* margin: calc(50% -50px); */
     }
 
     #dropdown-menu {
@@ -851,7 +851,7 @@ label {
         /* max-width: 30%; */
         align-items: center;
         justify-items: center;
-        margin: calc(50% -50px);
+        /* margin: calc(50% -50px); */
     }
 
     #dropdown-menu {
@@ -954,7 +954,7 @@ label {
         text-align: center;
         align-items: center;
         justify-content: center;
-        margin: calc(50% -50%);
+        /* margin: calc(50% -50%); */
     }
 
     .gallery {
@@ -976,7 +976,7 @@ label {
         position:absolute;
         max-width:100%;
         max-height:100%;
-        scale: 1.5;
+        transform: scale(1,5);
     }
 
     .navbtn {
@@ -1013,7 +1013,7 @@ label {
     .promovideo {
         max-width: 100%;
         max-height: 100%;
-        scale: 1.7;
+        transform: scale(1,7);
         margin-top: 80px;
         padding: 50px;
         border-radius: 10px;
