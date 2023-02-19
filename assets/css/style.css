@@ -40,7 +40,7 @@ p {
     font-weight: 400;
     font-size: 16px;
     font-style: normal;
-    padding: auto;
+    padding: 1em;
 }
 /* read more less sekcija */
 #readmore {
@@ -260,7 +260,7 @@ header {
 
 .form-section  {
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 1px;
     display: grid;
     width: 70%;
     height: 80%;
@@ -394,7 +394,7 @@ label {
  }
 
 .foto:hover {
-    transform: scale(110%);
+    transform: scale(1.1);
     transition: .5s ease;
     opacity: 1;
 }
@@ -512,7 +512,7 @@ label {
         width: 30%;
         align-items: center;
         justify-items: center;
-        margin: calc(50% -50%);
+        margin: calc(50% -50px);
     }
     
     .navbtn {
@@ -587,7 +587,7 @@ label {
     
 }
 /* for tablets up to 10" */
-@media screen and (min-width: 750px) and (max-width: 1030px) {
+@media screen and (min-width: 750px) and (max-width: 1050px) {
     .outer-body {
         max-width: 100%;
         height: auto;
@@ -606,7 +606,7 @@ label {
         max-width: 30%;
         align-items: center;
         justify-items: center;
-        margin: calc(50% -50%);
+        margin: calc(50% -50px);
     }
     footer, .footer  {
         max-width: 100%;
@@ -692,10 +692,9 @@ label {
     } 
 
     .boxfoto {
-    position:absolute;
-    max-width:100%;
-    max-height:100%;
-    
+        position:absolute;
+        max-width:100%;
+        max-height:100%;
     }    
 }
 /* For tablet up to 13" */
@@ -742,7 +741,7 @@ label {
         /* width: 30%; */
         align-items: center;
         justify-items: center;
-        margin: calc(50% -50%);
+        margin: calc(50% -50px);
     }
 
     #dropdown-menu {
@@ -811,7 +810,7 @@ label {
 }
 @media screen and (min-width: 1500px) and (max-width: 3000px) {
     .outer-body {
-        width: auto;
+        width: 90%;
         height: auto;
     }
     .inner-body-content {
@@ -820,12 +819,12 @@ label {
     }
 
     header {
-        width: 100%;
+        width: 90%;
         min-height: 15vh; 
     }
 
-    footer, .footer  {
-        width: 100%;
+    .footer  {
+        width: 90%;
         height: auto;
     }
     
@@ -852,7 +851,7 @@ label {
         /* max-width: 30%; */
         align-items: center;
         justify-items: center;
-        margin: calc(50% -50%);
+        margin: calc(50% -50px);
     }
 
     #dropdown-menu {
@@ -918,4 +917,112 @@ label {
     
     } 
 
+}
+
+@media screen and (min-width: 3000px) and (max-width: 5000px) {
+    .outer-body {
+        width: 90%;
+    }
+
+    .inner-body-content{
+       
+        height: fit-content;
+        height: max-content;
+    }
+
+    header {
+        width: 90%;
+        min-height: 15vh;
+    }
+
+    .footer {
+        width: 90%;
+    }
+
+    #logo {
+        max-width: 30%;
+        align-items: center;
+        justify-items: center;
+        /* margin: calc(50% -50%); */
+    }
+
+    .form-section {
+        width: 33%;
+        height: 50%;
+        padding: 1px;
+        margin: 1px 1px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: calc(50% -50%);
+    }
+
+    .gallery {
+        columns: 4;
+    }
+
+    .foto {
+        width: 18em;
+        height: 18em;
+        object-fit: cover;
+    }
+
+    .prev ion-icon, .next ion-icon, .close ion-icon {
+        font-size: 1.6em;
+        margin: 0 -10px;
+    } 
+
+    .boxfoto {
+        position:absolute;
+        max-width:100%;
+        max-height:100%;
+        scale: 1.5;
+    }
+
+    .navbtn {
+        padding: 5px;
+        margin: 5px;
+        font-size: 4.7em;
+    }
+
+    .menulist {
+        width: 100px;
+        font-size: 2em;  
+    }
+    
+    #dropdown-menu {
+        margin: 8em 70px;
+        max-width: min-content;
+    }
+
+    .hero-image {
+        max-width: 50%;
+    }
+
+    p {
+        font-size: 2em;
+    }
+
+    .more {
+        font-size: 2em;
+        text-align: -webkit-center;
+        text-align: center;
+        padding: 2em;
+    }
+
+    .promovideo {
+        max-width: 100%;
+        max-height: 100%;
+        scale: 1.7;
+        margin-top: 80px;
+        padding: 50px;
+        border-radius: 10px;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .prev ion-icon, .next ion-icon, .close ion-icon {
+        font-size: 1.6em;
+        margin: 0 -10px;
+    }
 }
