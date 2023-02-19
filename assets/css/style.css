@@ -53,7 +53,7 @@ p {
 }
 
 .more {
-    font-size: 25px;
+    font-size: 16px;
     text-decoration: none;
     color: rgb(0, 96, 250);
 }
@@ -113,7 +113,7 @@ h3 {
 
 #dropdown-menu {
     margin: 5em 0.8em;
-    /* display: none; */
+    display: none;
     position: relative;
     background-color: whitesmoke;
     list-style: none;
@@ -916,111 +916,4 @@ label {
     
     } 
 
-    @media screen and (min-width: 2000px) and (max-width: 4000px) {
-        .outer-body {
-            width: auto;
-            height: auto;
-        }
-        .inner-body-content {
-            max-width: 100%;
-            min-height: 10vh;
-        }
-    
-        header {
-            width: 100%;
-            min-height: 20vh; 
-        }
-    
-        footer, .footer  {
-            width: 100%;
-            height: auto;
-        }
-        
-        .hero-image {
-            max-width: 80%;
-        }
-    
-        h3 {
-            font-size: 3.9vw;
-            padding-top: 4.0vw;
-        }
-    
-        p {
-            font-size: 2em;
-        }
-    
-        .navbtn {
-            margin: 1em 0.5em;
-            font-size: 4em;
-        }
-        
-        #logo {
-    
-            align-items: center;
-            justify-items: center;
-            margin: calc(50% -50%);
-        }
-    
-        #dropdown-menu {
-            margin: 12em 70px;
-            max-width: min-content;
-        }
-    
-        .menulist {
-            width: 100px;
-            font-size: 2em; 
-        }
-      
-        .promovideo {
-            max-width: 100%;
-            max-height: 100%;
-            margin: 2em;
-            border-radius: 10px;
-            align-content: center;
-            justify-content: center;
-        }
-       
-        /* contact */
-        .form-section {
-            width: 98%;
-            height: 98%;
-            padding: 1px;
-            margin: 1px 1px;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-        }
-    
-        .text-input, .msg, label {
-            width: 90%;
-            height: fit-content;
-            font-size: 1em;
-        }
-    
-        .send-button {
-            margin-top: 3vw;
-            font-size: 1em;
-        }
-      
-        .gallery {
-            columns: 3;
-        }
-    
-        .foto {
-            width: 18em;
-            height: 18em;
-            object-fit: cover;
-        }
-    
-        .prev ion-icon, .next ion-icon, .close ion-icon {
-            font-size: 1.6em;
-            margin: 0 -10px;
-        } 
-    
-        .boxfoto {
-        position:absolute;
-        max-width:100%;
-        max-height:100%;
-        
-        }     
 }
