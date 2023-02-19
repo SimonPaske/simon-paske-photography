@@ -26,8 +26,8 @@ font-style: normal;
     border: 0;
 }
 
-.msg, .text-input, textarea, label, .sign-form, h3, h2, h1, p, .send-button, a, .navbtn, .more, .menulist {
-    font-family: "neue-kabel", sans-serif;
+.msg, .text-input, textarea, label, .sign-form, h3, h2, h1, h6, p, .send-button, a, .navbtn, .more, .menulist {
+    font-family: "neue-kabel", "soleil",sans-serif;
 }
 
 .send-button, .msg, .form-section, .hero-image, .navbtn, .text-input, .promovideo, .inner-body-content, #dropdown-menu {
