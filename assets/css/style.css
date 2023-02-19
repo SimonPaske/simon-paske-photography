@@ -53,9 +53,10 @@ p {
 }
 
 .more {
-    font-size: 16px;
+    font-size: 1em;
     text-decoration: none;
     color: rgb(0, 96, 250);
+    padding-bottom: 20px;
 }
 
 h1 {
@@ -602,7 +603,7 @@ label {
     }
 
     #logo {
-        width: 30%;
+        max-width: 30%;
         align-items: center;
         justify-items: center;
         margin: calc(50% -50%);
@@ -745,7 +746,7 @@ label {
     }
 
     #dropdown-menu {
-        margin: 6em 35px;
+        margin: 7em 35px;
         max-width: min-content;
     }
 
@@ -808,7 +809,7 @@ label {
     
     }    
 }
-@media screen and (min-width: 1500px) and (max-width: 2000px) {
+@media screen and (min-width: 1500px) and (max-width: 3000px) {
     .outer-body {
         width: auto;
         height: auto;
@@ -820,7 +821,7 @@ label {
 
     header {
         width: 100%;
-        min-height: 20vh; 
+        min-height: 15vh; 
     }
 
     footer, .footer  {
@@ -842,19 +843,20 @@ label {
     }
 
     .navbtn {
-        margin: 1em 0.5em;
-        font-size: 4em;
+        padding: 5px;
+        margin: 5px;
+        font-size: 4.7em;
     }
     
     #logo {
-
+        /* max-width: 30%; */
         align-items: center;
         justify-items: center;
         margin: calc(50% -50%);
     }
 
     #dropdown-menu {
-        margin: 12em 70px;
+        margin: 8em 70px;
         max-width: min-content;
     }
 
