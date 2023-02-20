@@ -1,52 +1,56 @@
 @import url("https://use.typekit.net/ziw3toi.css");
 
-/* Liberation Sans Regular
-font-family: "liberation-sans", sans-serif;
-font-weight: 400;
-font-style: normal;
-
-Liberation Sans Bold
-font-family: "liberation-sans", sans-serif;
-font-weight: 700;
-font-style: normal; 
-
-Soleil Regular
-font-family: "soleil", sans-serif;
-font-weight: 400;
-
-font-family: "neue-kabel", sans-serif;
-font-weight: 900;
-font-style: normal;
-*/
-
-
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-.msg, .text-input, textarea, label, .sign-form, h3, h2, h1, h6, p, .send-button, a, .navbtn, .more, .menulist {
-    font-family: "neue-kabel", "soleil",sans-serif;
+.msg,
+.text-input,
+textarea,
+label,
+.sign-form,
+h3,
+h2,
+h1,
+h6,
+p,
+.send-button,
+a,
+.navbtn,
+.more,
+.menulist {
+    font-family: "neue-kabel", "soleil", sans-serif;
 }
 
-.send-button, .msg, .form-section, .hero-image, .navbtn, .text-input, .promovideo, .inner-body-content, #dropdown-menu {
+.send-button,
+.msg,
+.form-section,
+.hero-image,
+.navbtn,
+.text-input,
+.promovideo,
+.inner-body-content,
+#dropdown-menu {
     border-radius: 10px;
 }
+
 a {
     font-size: 20px;
 }
+
 p {
     font-weight: 400;
     font-size: 16px;
     font-style: normal;
     padding: 1em;
 }
-/* read more less sekcija */
+
 #readmore {
     display: none;
     color: black;
-    }
+}
 
 #readmore:target {
     display: block;
@@ -61,10 +65,9 @@ p {
 
 h1 {
     font-weight: 900;
-    font-style:normal;
+    font-style: normal;
     font-size: 50px;
     letter-spacing: 2px;
-    /* changed */
     margin-bottom: 20px;
 }
 
@@ -98,15 +101,9 @@ h3 {
     font-size: 65px;
     padding: 20px;
     float: left;
-    text-align:left;
+    text-align: left;
 }
-/* .navbtn, p {
-    font-size: 40px; 
-    float: left;
-    text-align:left;
-    padding: 20px;
-    background-color: transparent;
-} */
+
 #dropdown {
     position: relative;
     display: inline-block;
@@ -118,7 +115,6 @@ h3 {
     position: relative;
     background-color: whitesmoke;
     list-style: none;
-    /* text-align: center; */
     width: 160px;
     z-index: 555;
     padding: 30px;
@@ -130,7 +126,7 @@ h3 {
     text-decoration: none;
     display: block;
     text-align: center;
-    
+
 }
 
 #dropdown-menu .menulist:hover {
@@ -154,7 +150,6 @@ h3 {
 
 header {
     width: 1600px;
-    /* height: 200px; */
     margin: auto;
     display: block;
     height: 150px;
@@ -167,7 +162,6 @@ header {
 .outer-body {
     background-color: black;
     width: 1600px;
-    /* changed */
     height: auto;
     margin: auto;
     display: block;
@@ -177,9 +171,7 @@ header {
 .inner-body-content {
     background-color: rgb(243, 219, 183);
     width: 80%;
-    /* pakeista i auto max content */
-    
-    height: auto;  
+    height: auto;
     text-align: center;
     margin: 0 auto;
     padding: 20px;
@@ -192,18 +184,18 @@ header {
     margin: 0 auto;
 }
 
- .hero-image {
+.hero-image {
     width: 100%;
     height: auto;
     padding: 0;
     margin-bottom: 2vw;
-   
- }
 
- .arrow-down {
+}
+
+.arrow-down {
     width: 100%;
     text-align: center;
- }
+}
 
 .promovideo {
     padding-top: 5vh;
@@ -216,9 +208,8 @@ header {
     width: 1600px;
     height: 100px;
     background: black;
-    /* min-height: 100px; */
     padding: 20px 0;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -235,11 +226,11 @@ header {
     margin: 10px 0;
     flex-wrap: wrap;
 }
-  
+
 .social-icon__item {
     list-style: none;
 }
-  
+
 .social-icon__link {
     font-size: 2rem;
     color: #fff;
@@ -248,17 +239,11 @@ header {
     transition: 0.3s;
 }
 
-  /* SOKINEJA IKONOS */
 .social-icon__link:hover {
     transform: translateY(-10px);
 }
 
-  /* .sign-form-photo {
-    width: 200px;
-    height: auto; 
-  } */
-
-.form-section  {
+.form-section {
     margin: 0 auto;
     padding: 1px;
     display: grid;
@@ -275,30 +260,19 @@ header {
     height: auto;
 }
 
-  /* .sign-form {
-    position: absolute;
-    left: 50%;
-    padding: 30px;
-    transform: translate(-50%, -50%);
-    padding-bottom:30px;
-    text-align: center;
-    justify-content: center;
-  
-    
-   
-    
-  } */
-
-h3, label, input, textarea, .send-button {
+h3,
+label,
+input,
+textarea,
+.send-button {
     text-shadow: grey 5px -5px 10px;
     padding: 5px 10px;
 }
-  
+
 label {
     font-weight: 600;
     font-size: 20px;
     display: block;
-    /* padding: 5px 0; */
     margin: 10px 0 0 0;
     position: relative;
     color: white;
@@ -306,24 +280,22 @@ label {
 
 .text-input {
     display: grid;
-    /* font-size: 16px; */
-    /* padding-left: 10px; */
     width: 60%;
     height: 30px;
     margin-top: 20px;
     text-align: left;
     font-size: 16px;
     justify-content: center;
-    position: relative; 
-    left: 50%; 
+    position: relative;
+    left: 50%;
     transform: translate(-50%, -50%);
     margin-bottom: 10px;
-    /* margin-left: -200px; */
     background-color: rgb(221, 221, 221);
-    
+
 }
 
-::placeholder, textarea {
+::placeholder,
+textarea {
     margin: 5px;
     font-weight: 400;
     color: black;
@@ -334,17 +306,13 @@ label {
     font-size: 20px;
     height: 150px;
     width: 500px;
-    /* padding: auto; */
     margin: auto;
     display: grid;
-    /* align-items: center;
-    justify-content: center;
-    resize: none; */
     background-color: rgb(221, 221, 221);
     overflow: auto;
 }
 
-  
+
 
 .send-button {
     left: 50%;
@@ -353,20 +321,18 @@ label {
     margin: 15px;
     font-size: 18px;
     border: 1px solid grey;
-    /* font-family:"neue-kabel",sans-serif; */
-    background-color:rgb(179, 179, 179);
+    background-color: rgb(179, 179, 179);
     justify-content: center;
-    transition:all .3s ;
+    transition: all .3s;
 }
-  
+
 .send-button:hover {
     background-color: rgb(244, 61, 61);
     color: black;
-    opacity: .8;     
+    opacity: .8;
 }
 
-/* safari bux fix */
-.gallery  *{
+.gallery * {
     will-change: opacity;
 }
 
@@ -375,23 +341,23 @@ label {
     width: 100%;
     margin: auto;
     columns: 3;
-    
-  }
+
+}
 
 .foto {
     width: 300px;
     height: 300px;
     padding: 3px;
-    object-fit: cover; 
-    background-color: white; 
-    -webkit-box-shadow: 10px 10px 40px 20px black; 
+    object-fit: cover;
+    background-color: white;
+    -webkit-box-shadow: 10px 10px 40px 20px black;
     -moz-box-shadow: 10px 10px 40px 20px black;
     box-shadow: 10px 10px 40px 20px black;
-  }
+}
 
 .fotobox {
-    padding: 15px 0 15px 0;   
- }
+    padding: 15px 0 15px 0;
+}
 
 .foto:hover {
     transform: scale(1.1);
@@ -439,7 +405,7 @@ label {
     color: black;
     right: 5%;
     font-size: 50px;
-    
+
 }
 
 .close ion-icon {
@@ -455,13 +421,13 @@ label {
 
 .lightbox .boxfoto {
     max-width: 80%;
-    max-height: 80%; 
+    max-height: 80%;
 }
 
 .lightbox .picid {
     font-size: 30px;
     text-decoration: none;
-    padding: 10px;   
+    padding: 10px;
 }
 
 .lightbox:target {
@@ -469,7 +435,6 @@ label {
     opacity: 1;
 }
 
-/* for phones */
 @media screen and (min-width: 300px) and (max-width: 750px) {
     .outer-body {
         max-width: 100%;
@@ -483,10 +448,11 @@ label {
 
     header {
         max-width: 100%;
-        height: 15vh; 
+        height: 15vh;
     }
-    
-    footer, .footer  {
+
+    footer,
+    .footer {
         max-width: 100%;
         height: auto;
     }
@@ -512,19 +478,17 @@ label {
         width: 30%;
         align-items: center;
         justify-items: center;
-        /* margin: calc(50% -50px); */
     }
-    
+
     .navbtn {
         padding: 5px;
         margin: 5px;
         font-size: 1.8em;
     }
-    
+
     #dropdown-menu {
         margin: 60px 10px;
         max-width: min-content;
-        /* padding: 2em 2em; */
     }
 
     .menulist {
@@ -541,7 +505,7 @@ label {
         border-radius: 10px;
         align-content: center;
     }
-   
+
     .form-section {
         width: 98%;
         height: 98%;
@@ -552,7 +516,9 @@ label {
         justify-content: center;
     }
 
-    .text-input, .msg, label {
+    .text-input,
+    .msg,
+    label {
         width: 90%;
         height: fit-content;
         font-size: 1em;
@@ -562,7 +528,7 @@ label {
         margin-top: 3vw;
         font-size: 1em;
     }
-  
+
     .gallery {
         columns: 1;
     }
@@ -573,25 +539,28 @@ label {
         object-fit: cover;
     }
 
-    .prev ion-icon, .next ion-icon, .close ion-icon {
+    .prev ion-icon,
+    .next ion-icon,
+    .close ion-icon {
         font-size: 4.0vw;
         margin: 0 -10px;
-    } 
+    }
 
     .boxfoto {
-        position:absolute;
+        position: absolute;
         max-width: 100%;
         max-height: 100%;
-    
+
     }
-    
+
 }
-/* for tablets up to 10" */
+
 @media screen and (min-width: 750px) and (max-width: 1050px) {
     .outer-body {
         max-width: 100%;
         height: auto;
     }
+
     .inner-body-content {
         max-width: 100%;
         min-height: 10vh;
@@ -599,20 +568,21 @@ label {
 
     header {
         max-width: 100%;
-        height: 15vh; 
+        height: 15vh;
     }
 
     #logo {
         max-width: 30%;
         align-items: center;
         justify-items: center;
-        /* margin: calc(50% -50px); */
     }
-    footer, .footer  {
+
+    footer,
+    .footer {
         max-width: 100%;
         height: auto;
     }
-    
+
     .hero-image {
         max-width: 80%;
     }
@@ -625,7 +595,7 @@ label {
     p {
         font-size: 1.7em;
     }
-    
+
     .navbtn {
         margin: 5px;
         padding: 5px;
@@ -635,8 +605,6 @@ label {
     #dropdown-menu {
         margin: 5em 0.8em;
         max-width: min-content;
-        
-        /* padding: 2em 5em; */
     }
 
     .menulist {
@@ -647,14 +615,12 @@ label {
     .promovideo {
         max-width: 100%;
         max-height: 100%;
-        /* padding: 0 4em 0 4em; */
         margin: 2em;
         border-radius: 10px;
         align-content: center;
         justify-content: center;
     }
-   
-    /* contact */
+
     .form-section {
         width: 98%;
         height: 98%;
@@ -665,7 +631,9 @@ label {
         justify-content: center;
     }
 
-    .text-input, .msg, label {
+    .text-input,
+    .msg,
+    label {
         width: 90%;
         height: fit-content;
         font-size: 1em;
@@ -675,7 +643,7 @@ label {
         margin-top: 3vw;
         font-size: 1em;
     }
-  
+
     .gallery {
         columns: 3;
     }
@@ -686,23 +654,26 @@ label {
         object-fit: cover;
     }
 
-    .prev ion-icon, .next ion-icon, .close ion-icon {
+    .prev ion-icon,
+    .next ion-icon,
+    .close ion-icon {
         font-size: 4.0vw;
         margin: 0 -10px;
-    } 
+    }
 
     .boxfoto {
-        position:absolute;
-        max-width:100%;
-        max-height:100%;
-    }    
+        position: absolute;
+        max-width: 100%;
+        max-height: 100%;
+    }
 }
-/* For tablet up to 13" */
+
 @media screen and (min-width: 1050px) and (max-width: 1500px) {
     .outer-body {
         max-width: 100%;
         height: auto;
     }
+
     .inner-body-content {
         max-width: 100%;
         min-height: 10vh;
@@ -710,14 +681,15 @@ label {
 
     header {
         max-width: 100%;
-        height: 15vh; 
+        height: 15vh;
     }
 
-    footer, .footer  {
+    footer,
+    .footer {
         max-width: 100%;
         height: auto;
     }
-    
+
     .hero-image {
         max-width: 80%;
     }
@@ -736,12 +708,10 @@ label {
         margin: 5px;
         font-size: 4em;
     }
-    
+
     #logo {
-        /* width: 30%; */
         align-items: center;
         justify-items: center;
-        /* margin: calc(50% -50px); */
     }
 
     #dropdown-menu {
@@ -752,9 +722,9 @@ label {
     .menulist {
         max-width: 150px;
         font-size: 1.5em;
-        
+
     }
-  
+
     .promovideo {
         max-width: 100%;
         max-height: 100%;
@@ -763,8 +733,7 @@ label {
         align-content: center;
         justify-content: center;
     }
-   
-    /* contact */
+
     .form-section {
         width: 98%;
         height: 98%;
@@ -775,7 +744,9 @@ label {
         justify-content: center;
     }
 
-    .text-input, .msg, label {
+    .text-input,
+    .msg,
+    label {
         width: 90%;
         height: fit-content;
         font-size: 1em;
@@ -785,7 +756,7 @@ label {
         margin-top: 3vw;
         font-size: 1em;
     }
-  
+
     .gallery {
         columns: 3;
     }
@@ -796,23 +767,27 @@ label {
         object-fit: cover;
     }
 
-    .prev ion-icon, .next ion-icon, .close ion-icon {
+    .prev ion-icon,
+    .next ion-icon,
+    .close ion-icon {
         font-size: 1.6em;
         margin: 0 -10px;
-    } 
+    }
 
     .boxfoto {
-    position:absolute;
-    max-width:100%;
-    max-height:100%;
-    
-    }    
+        position: absolute;
+        max-width: 100%;
+        max-height: 100%;
+
+    }
 }
+
 @media screen and (min-width: 1500px) and (max-width: 3000px) {
     .outer-body {
         width: 90%;
         height: auto;
     }
+
     .inner-body-content {
         max-width: 100%;
         min-height: 10vh;
@@ -820,14 +795,14 @@ label {
 
     header {
         width: 90%;
-        min-height: 15vh; 
+        min-height: 15vh;
     }
 
-    .footer  {
+    .footer {
         width: 90%;
         height: auto;
     }
-    
+
     .hero-image {
         max-width: 80%;
     }
@@ -846,12 +821,10 @@ label {
         margin: 5px;
         font-size: 4.7em;
     }
-    
+
     #logo {
-        /* max-width: 30%; */
         align-items: center;
         justify-items: center;
-        /* margin: calc(50% -50px); */
     }
 
     #dropdown-menu {
@@ -861,9 +834,9 @@ label {
 
     .menulist {
         width: 100px;
-        font-size: 2em; 
+        font-size: 2em;
     }
-  
+
     .promovideo {
         max-width: 100%;
         max-height: 100%;
@@ -872,8 +845,7 @@ label {
         align-content: center;
         justify-content: center;
     }
-   
-    /* contact */
+
     .form-section {
         width: 98%;
         height: 98%;
@@ -884,7 +856,9 @@ label {
         justify-content: center;
     }
 
-    .text-input, .msg, label {
+    .text-input,
+    .msg,
+    label {
         width: 90%;
         height: fit-content;
         font-size: 1em;
@@ -894,7 +868,7 @@ label {
         margin-top: 3vw;
         font-size: 1em;
     }
-  
+
     .gallery {
         columns: 3;
     }
@@ -905,17 +879,19 @@ label {
         object-fit: cover;
     }
 
-    .prev ion-icon, .next ion-icon, .close ion-icon {
+    .prev ion-icon,
+    .next ion-icon,
+    .close ion-icon {
         font-size: 1.6em;
         margin: 0 -10px;
-    } 
+    }
 
     .boxfoto {
-    position:absolute;
-    max-width:100%;
-    max-height:100%;
-    
-    } 
+        position: absolute;
+        max-width: 100%;
+        max-height: 100%;
+
+    }
 
 }
 
@@ -924,8 +900,8 @@ label {
         width: 90%;
     }
 
-    .inner-body-content{
-       
+    .inner-body-content {
+
         height: fit-content;
         height: max-content;
     }
@@ -943,7 +919,6 @@ label {
         max-width: 30%;
         align-items: center;
         justify-items: center;
-        /* margin: calc(50% -50%); */
     }
 
     .form-section {
@@ -954,7 +929,7 @@ label {
         text-align: center;
         align-items: center;
         justify-content: center;
-        /* margin: calc(50% -50%); */
+
     }
 
     .gallery {
@@ -967,16 +942,18 @@ label {
         object-fit: cover;
     }
 
-    .prev ion-icon, .next ion-icon, .close ion-icon {
+    .prev ion-icon,
+    .next ion-icon,
+    .close ion-icon {
         font-size: 1.6em;
         margin: 0 -10px;
-    } 
+    }
 
     .boxfoto {
-        position:absolute;
-        max-width:100%;
-        max-height:100%;
-        transform: scale(1,5);
+        position: absolute;
+        max-width: 100%;
+        max-height: 100%;
+        transform: scale(1, 5);
     }
 
     .navbtn {
@@ -987,9 +964,9 @@ label {
 
     .menulist {
         width: 100px;
-        font-size: 2em;  
+        font-size: 2em;
     }
-    
+
     #dropdown-menu {
         margin: 8em 70px;
         max-width: min-content;
@@ -1013,7 +990,7 @@ label {
     .promovideo {
         max-width: 100%;
         max-height: 100%;
-        transform: scale(1,7);
+        transform: scale(1, 7);
         margin-top: 80px;
         padding: 50px;
         border-radius: 10px;
@@ -1021,7 +998,9 @@ label {
         justify-content: center;
     }
 
-    .prev ion-icon, .next ion-icon, .close ion-icon {
+    .prev ion-icon,
+    .next ion-icon,
+    .close ion-icon {
         font-size: 1.6em;
         margin: 0 -10px;
     }
