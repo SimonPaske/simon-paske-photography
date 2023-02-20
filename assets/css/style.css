@@ -30,7 +30,7 @@ a,
 .hero-image,
 .navbtn,
 .text-input,
-.promovideo,
+.promo-video,
 .inner-body-content,
 #dropdown-menu {
     border-radius: 10px;
@@ -47,12 +47,12 @@ p {
     padding: 1em;
 }
 
-#readmore {
+#read-more {
     display: none;
     color: black;
 }
 
-#readmore:target {
+#read-more:target {
     display: block;
 }
 
@@ -197,7 +197,7 @@ header {
     text-align: center;
 }
 
-.promovideo {
+.promo-video {
     padding-top: 5vh;
     margin: auto;
     align-items: center;
@@ -355,7 +355,7 @@ textarea {
     box-shadow: 10px 10px 40px 20px black;
 }
 
-.fotobox {
+.foto-box {
     padding: 15px 0 15px 0;
 }
 
@@ -419,12 +419,12 @@ textarea {
     font-size: 50px;
 }
 
-.lightbox .boxfoto {
+.lightbox .box-foto {
     max-width: 80%;
     max-height: 80%;
 }
 
-.lightbox .picid {
+.lightbox .pic-id {
     font-size: 30px;
     text-decoration: none;
     padding: 10px;
@@ -497,7 +497,7 @@ textarea {
         text-align: center;
     }
 
-    .promovideo {
+    .promo-video {
         max-width: 100%;
         max-height: min-content;
         padding: 1px;
@@ -546,7 +546,7 @@ textarea {
         margin: 0 -10px;
     }
 
-    .boxfoto {
+    .box-foto {
         position: absolute;
         max-width: 100%;
         max-height: 100%;
@@ -612,7 +612,7 @@ textarea {
         font-size: 1em;
     }
 
-    .promovideo {
+    .promo-video {
         max-width: 100%;
         max-height: 100%;
         margin: 2em;
@@ -661,7 +661,7 @@ textarea {
         margin: 0 -10px;
     }
 
-    .boxfoto {
+    .box-foto {
         position: absolute;
         max-width: 100%;
         max-height: 100%;
@@ -725,7 +725,7 @@ textarea {
 
     }
 
-    .promovideo {
+    .promo-video {
         max-width: 100%;
         max-height: 100%;
         margin: 2em;
@@ -774,7 +774,7 @@ textarea {
         margin: 0 -10px;
     }
 
-    .boxfoto {
+    .box-foto {
         position: absolute;
         max-width: 100%;
         max-height: 100%;
@@ -837,7 +837,7 @@ textarea {
         font-size: 2em;
     }
 
-    .promovideo {
+    .promo-video {
         max-width: 100%;
         max-height: 100%;
         margin: 2em;
@@ -886,7 +886,7 @@ textarea {
         margin: 0 -10px;
     }
 
-    .boxfoto {
+    .box-foto {
         position: absolute;
         max-width: 100%;
         max-height: 100%;
@@ -949,7 +949,7 @@ textarea {
         margin: 0 -10px;
     }
 
-    .boxfoto {
+    .box-foto {
         position: absolute;
         max-width: 100%;
         max-height: 100%;
@@ -987,7 +987,7 @@ textarea {
         padding: 2em;
     }
 
-    .promovideo {
+    .promo-video {
         max-width: 100%;
         max-height: 100%;
         transform: scale(1, 7);
