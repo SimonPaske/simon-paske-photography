@@ -182,6 +182,10 @@ header {
     max-width: 100%;
 }
 
+.error0text {
+    color: white;
+}
+
 .text-section {
     width: 100%;
     height: 90%;
