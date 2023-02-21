@@ -178,6 +178,10 @@ header {
     overflow: auto;
 }
 
+#error-photo { 
+    max-width: 100%;
+}
+
 .text-section {
     width: 100%;
     height: 90%;
