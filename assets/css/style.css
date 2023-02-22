@@ -1078,9 +1078,9 @@ textarea {
   .promo-video {
     max-width: 100%;
     max-height: 100%;
-    transform: scale(1, 7);
+    transform: scale(1.7);
     margin-top: 80px;
-    padding: 50px;
+    padding: 30px;
     border-radius: 10px;
     align-content: center;
     justify-content: center;
