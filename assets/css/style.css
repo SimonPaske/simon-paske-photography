@@ -1008,6 +1008,7 @@ textarea {
     max-width: 30%;
     align-items: center;
     justify-items: center;
+    padding: 2em;
   }
 
   .form-section {
@@ -1095,7 +1096,7 @@ textarea {
 
   .error-text1 {
     font-size: 60em;
-    top: 40%;
+    top: 50%;
   }
 
   .error-text2 {
