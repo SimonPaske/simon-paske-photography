@@ -1,5 +1,15 @@
 {
     "recommendations": [
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "ecmel.vscode-html-css",
+        "george-alisson.html-preview-vscode",
+        "hwencc.html-tag-wrapper",
+        "tlevesque2.duplicate-finder",
+        "alfredbirk.git-add-commit-push",
+        "mhutchie.git-graph",
+        "donjayamanne.githistory",
+        "cschleiden.vscode-github-actions",
+        "ritwickdey.liveserver",
+        "celianriboulet.webvalidator"
     ]
 }
