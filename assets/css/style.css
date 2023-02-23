@@ -197,6 +197,17 @@ header {
   text-shadow: white 5px -5px 10px;
 }
 
+.error-text1 {
+  font-size: 5em;
+  padding: 0.6em;
+  position: absolute;
+  color: rgb(0, 136, 255);
+  text-shadow: grey 5px 15px 10px;
+  top: 46%;
+  left: 50%;
+  opacity: 0.3;
+}
+
 .error-text2 {
   font-size: 2em;
   text-align: right;
@@ -214,23 +225,9 @@ header {
   display: block;
   text-justify: auto;
   text-shadow: grey 5px 15px 10px;
-  left: 20%;
-  top: 50%;
+  top: 40%;
   color: rgb(255, 68, 0);
   z-index: 779;
-}
-
-.error-text1 {
-  font-size: 5em;
-  padding: 0.6em;
-  position: absolute;
-  color: rgb(0, 136, 255);
-  text-shadow: grey 5px 15px 10px;
-  text-align: right;
-  top: 46%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0.6;
 }
 
 .text-section {
@@ -604,7 +601,16 @@ textarea {
   .error-text1 {
     padding: 0;
     font-size: 9em;
-    top: 45%;
+    top: 25%;
+    left: 20%;
+  }
+
+  .error-text2 {
+    left: 5%;
+  }
+
+  .error-text3 {
+    left: 5%;
   }
 }
 
@@ -720,18 +726,21 @@ textarea {
     max-height: 100%;
   }
 
-  .error-text2 {
-    font-size: 2em;
-  }
-
   .error-text1 {
     padding: 0;
-    font-size: 12em;
-    top: 40%;
+    font-size: 9em;
+    top: 20%;
+    left: 50%;
+  }
+
+  .error-text2 {
+    font-size: 2em;
+    left: 5%;
   }
 
   .error-text3 {
     top: 50%;
+    left: 5%;
     font-size: 2em;
   }
 }
@@ -850,17 +859,20 @@ textarea {
 
   .error-text2 {
     font-size: 3em;
+    left: 5%;
   }
 
   .error-text1 {
     padding: 0;
     font-size: 17em;
     top: 50%;
+    left: 5%;
   }
 
   .error-text3 {
     bottom: 35%;
     font-size: 2em;
+    left: 5%;
   }
 }
 
@@ -974,18 +986,21 @@ textarea {
     max-height: 100%;
   }
 
-  .error-text2 {
-    font-size: 4em;
-  }
-
   .error-text1 {
     font-size: 25em;
-    top: 40%;
+    top: 20%;
+    left: 30%;
+  }
+
+  .error-text2 {
+    font-size: 4em;
+    left: 10%;
   }
 
   .error-text3 {
     top: 50%;
     font-size: 3em;
+    left: 10%;
   }
 }
 
@@ -1099,16 +1114,19 @@ textarea {
   }
 
   .error-text1 {
-    font-size: 60em;
-    top: 50%;
+    font-size: 30em;
+    top: 30%;
   }
 
   .error-text2 {
     font-size: 8em;
+    left: 15%;
   }
 
   .error-text3 {
     bottom: 10%;
     font-size: 6em;
+    top: 50%;
+    left: 15%;
   }
 }
