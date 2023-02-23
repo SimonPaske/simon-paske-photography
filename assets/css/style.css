@@ -160,15 +160,6 @@ header {
   border-top-left-radius: 10px;
 }
 
-.outer-body {
-  background-color: black;
-  width: 1600px;
-  height: auto;
-  margin: auto;
-  display: block;
-  overflow: auto;
-}
-
 .inner-body-content {
   background-color: rgb(243, 219, 183);
   width: 80%;
@@ -186,6 +177,7 @@ header {
 
 #error-photo {
   width: 100%;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -482,10 +474,6 @@ textarea {
 }
 
 @media screen and (min-width: 300px) and (max-width: 750px) {
-  .outer-body {
-    max-width: 100%;
-    height: auto;
-  }
 
   .inner-body-content {
     max-width: 100%;
@@ -615,10 +603,6 @@ textarea {
 }
 
 @media screen and (min-width: 750px) and (max-width: 1050px) {
-  .outer-body {
-    max-width: 100%;
-    height: auto;
-  }
 
   .inner-body-content {
     max-width: 100%;
@@ -746,10 +730,7 @@ textarea {
 }
 
 @media screen and (min-width: 1050px) and (max-width: 1500px) {
-  .outer-body {
-    max-width: 100%;
-    height: auto;
-  }
+
 
   .inner-body-content {
     max-width: 100%;
@@ -877,10 +858,7 @@ textarea {
 }
 
 @media screen and (min-width: 1500px) and (max-width: 3000px) {
-  .outer-body {
-    width: 90%;
-    height: auto;
-  }
+
 
   .inner-body-content {
     max-width: 100%;
@@ -1005,9 +983,7 @@ textarea {
 }
 
 @media screen and (min-width: 3000px) and (max-width: 5000px) {
-  .outer-body {
-    width: 90%;
-  }
+
 
   .inner-body-content {
     height: fit-content;
