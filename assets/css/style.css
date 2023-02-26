@@ -300,7 +300,7 @@ header {
   display: grid;
   width: 70%;
   height: 80%;
-  background-color: grey;
+  background-color: #595959;
   scroll-behavior: auto;
   box-shadow: 0 0 40px -10px #000;
   margin-block: 60px;
