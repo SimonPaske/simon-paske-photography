@@ -1,6 +1,6 @@
 # Simon Paske photography
 
-Simon Paske photography is a website that allows user to read a short story about my photography path and earned achievements. Moreover, user is getting a better understanding what kind of person I am as a human being and what photography means to me. The web page also provides a small collection of various genre images and short presentational video with my works.
+Simon Paske photography is a website that allows users to read a short story about my photography path and earned achievements. Moreover, a user is getting a better understanding of what kind of person I am as a human being and what photography means to me. The web page also provides a small collection of various genre images and short presentational videos with my works.
 
 You can visit live website --> [here](https://simonpaske.github.io/simon-paske-photography/)
 
@@ -11,16 +11,16 @@ You can visit live website --> [here](https://simonpaske.github.io/simon-paske-p
 ### Sitewide
 
 * Dropdown Navigation Menu
-  * Contains links to Home, Gallery and Contact pages. It will be responsive on all devices.
-  * It will gives user an opportunity to easily use and navigate throught the website on any device.
+   * Contains links to Home, Gallery and Contact pages. It will be responsive on all devices.
+   * It will allow a user to easily use and navigate through the website on any device.
 
 ![Navigation Menu](docs/readme_images/navigation_menu.png)
 
 ---
 
 * Footer
-  * Footer contains Social Media icons as a links to desired platforms.
-  * Icons contains aria labels, therefore visually impaired people are able to reach me out by use of screen reader.
+   * Footer contains Social Media icons as links to desired platforms.
+   * Icons contain aria labels, therefore visually impaired people can reach me by use of a screen reader.
 
 ![Footer](docs/readme_images/footer.png)
 
@@ -28,15 +28,15 @@ You can visit live website --> [here](https://simonpaske.github.io/simon-paske-p
 
 * Favicon
   * Favicon with my logo is visible throughout the website pages.
-  * It will help to user faster and easier find my pages if many tabs in a browser are opened.
+  * It will help user faster and easier find my pages if many tabs in a browser are opened.
 
     ![Favicon](docs/readme_images/favicon.png)
 
 ---
 
 * 404 Page
-  * Page will be displayed if user navigates to a broken link.
-  * 404 page allows user to reach me out easy via Facebook or email. Moreover, by clicking on the logo people will be redirected to home page without need of clicking back button on internet browser.
+   * Page will be displayed if a user navigates to a broken link.
+   * 404 page allows users to reach out easily via Facebook or email. Moreover, by clicking on the logo people will be redirected to the home page without the need of clicking the back button on an internet browser.
 
     ![404_page](docs/readme_images/404_page.png)
 
@@ -50,15 +50,15 @@ You can visit live website --> [here](https://simonpaske.github.io/simon-paske-p
 
 ---
 
-* Embeded Video
-  * This gives users an opportunity to visit my Youtube channel and see more of my videos. Furthermore, user can adjust video quality depending on its internet connection.
+* Embedded Video
+   * This allows users to visit my Youtube channel and see more of my videos. Furthermore, users can adjust video quality depending on their internet connection.
 
 ![Promo video](docs/readme_images/video.png)
 
 ---
 
 * Lightbox
-  * This gives users a great posibility to see a large image on screen. In addition, customer can see next or previous photograph whithout exiting lightbox.
+   * This gives users a great possibility to see a large image on a screen. In addition, customers can see the next or previous photograph without exiting lightbox.
 
 ![Lightbox](docs/readme_images/gallery_lightbox.png)
 
@@ -67,16 +67,16 @@ You can visit live website --> [here](https://simonpaske.github.io/simon-paske-p
 ### Landing Page
 
 * Landing page image
-  * It includes hero image in which I was photographed as a child with camera in my hands.
-  * A text bellow the hero image obviously tells that website content will be related to the photography.
+   * It includes a hero image in which I was photographed as a child with a camera in my hands.
+   * A text bellow the hero image tells that website content will be related to the photography.
 
 ![Landing Page](docs/readme_images/landing_page.png)
 
 ---
 
 * Read more
-  * This short portion of text gives possibility for users to read more about my photography journey, achievements and companies that I worked with.
-  * The story shows that I really love my work, I gained trust from worldwide companies and deliver professional services.
+   * This short portion of text gives the possibility for users to read more about my photography journey, achievements and companies that I worked with.
+   * The story shows that I love my work, I gained the trust of worldwide companies and deliver professional services.
 
 ![About me](docs/readme_images/about_me.png)
 
@@ -84,9 +84,9 @@ You can visit live website --> [here](https://simonpaske.github.io/simon-paske-p
 
 ### Gallery Page
 
-* The gallery gives possibility to user see my works of different scenarios and genre. The page is working fully responsive on eny device.
-  * For the moment gallery contains 12 pgotographs that can be enlarged.
-* Lightbox feature ensure that user can see favorite images in bigger size.
+* The gallery gives the possibility to users see my works of different scenarios and genres. The page is working fully responsive on any device.
+  * For the moment gallery contains 12 photographs that can be enlarged.
+* Lightbox feature ensures that users can see favorite images in a bigger size.
 
 ![Gallery](docs/readme_images/gallery_page.png)
 
@@ -96,12 +96,12 @@ You can visit live website --> [here](https://simonpaske.github.io/simon-paske-p
 
 ### Contact Page
 
-* Contact form lets customers to fill the form and leave a message regarding the question. The form consists of following fields and attributes:
-  * Full Name (required, type=text)
-  * Email (required, type=email)
-  * Write your message here (required, type=textarea)
-* After succsessful form submition the customer will get confirmation message and possibility to go back to contact.html page.
-  * This gives posibility for the customer to contact me if they want to get the price for my services or any other information.
+* Contact form lets customers fill out the form and leave a message regarding the question. The form consists of the following fields and attributes:
+   * Full Name (required, type=text)
+   * Email (required, type=email)
+   * Write your message here (required, type=textarea)
+* After successful form submission the customer will get a confirmation message and the possibility to go back to the contact.html page.
+ * This gives the possibility for the customer to contact me if they want to get the price for my services or any other information.
 
 ![Contact Form](docs/readme_images/contact_form.png)
 
@@ -112,19 +112,19 @@ You can visit live website --> [here](https://simonpaske.github.io/simon-paske-p
 * Responsive design
 * Hidden navigation menu, which gives more attention to the content
 * Responsive Lightbox design independent of device orientation
-* Contact form with a confirmation about successful form
+* Contact form with a confirmation about the successful form
 * Animated social icons
-* Embeded video from Youtube with option to adjust the quality
+* Embedded video from Youtube with the option to adjust the quality
 
 ---
 
 ### Feature Left to implement
 
 * As a future improvement:
-  * The photos could provide EXIF information for other photographers
-  * Google maps would be implemented to show photo locations
-  * Lightbox would be improved and responsive with an option to swipe and pinch gestures
-  * Implement booking system
+   * The photos could provide EXIF information for other photographers
+   * Google maps would be implemented to show photo locations
+   * Lightbox would be improved and responsive with an option to swipe and pinch gestures
+   * Add a booking system
 
 ---
 
@@ -219,21 +219,21 @@ Contact form successful submition
 * HTML Preview (extension for Visual Studio Code)
   * Was used to preview HTML files while editing them in VSCode
 * Prettier - Code formatter
-  * Was used to format code and keep it consitant
+  * Was used to format code and keep it consitent
 * W3C Web Validator (extension for Visual Studio Code)
   * Was used to check if any issue is detected and correct them
 * Favicon.io
   * Favicon files were created at favicon [converter](https://favicon.io/favicon-converter/)
 * Adobe Photoshop
-  * Was used to convert photos to low size images
+  * Was used to convert photos to low-size images
 * Justinmind
   * Was used to create wireframes
 * Ionicons
-  * Was used to make website more attractive
+  * Was used to make the website more attractive
 * Adobe Fonts
-  * Was used to keep a text styling constant
+  * Was used to keep text styling consistent
 * Formspree.io
-  * Was used to receive submitions to my email.
+  * Was used to receiving submissions to my email.
 
 ---
 
@@ -245,23 +245,23 @@ Contact form successful submition
 
 ---
 
-All pages were tested to ensure responsivnes for screen sized from 300px up to 5000px. Responsive design was tested on Safari, Chrome and Firefox internet browsers.
+All pages were tested to ensure responsiveness for screens from 300px up to 5000px. Responsive design was tested on Safari, Chrome and Firefox internet browsers.
 
 Steps for testing:
 
-1. Open browser and enter wbsite [address](https://simonpaske.github.io/simon-paske-photography/)
-2. Open developer tools by clicking right button on the mouse or choosing at the internet browser navigation bar.
-3. At Safari and Firefox browsers choosing device type and size to see a responsivnes. At Chrome internet browser by changing window size.
+1. Open the browser and enter the website [address](https://simonpaske.github.io/simon-paske-photography/)
+2. Open developer tools by clicking the right button on the mouse or choosing the internet browser navigation bar.
+3. Safari and Firefox browsers choose device type and size to see responsiveness. At Chrome internet browser by changing window size.
 
 Expected:
 
-No overlaping.
+No overlapping.
 No strecthed or pixelated images.
 
 Actual:
-The website bahave as expected except on 404.html page at landscape orentation smaller devices. (Details can be found in Unifixed bugs part of documentation).
+The website behaves as expected except on the 404.html page at landscape orientation on smaller devices. (Details can be found in the Unifixed bugs part of the documentation).
 
-Website was tested on these devices:
+The website was tested on these devices:
 
 Samsung S9
 Samsung S22 Ultra
@@ -275,12 +275,12 @@ IPhone SE
 
 ### Accessibility
 
-For the final testing I used [WAVE tool](https://wave.webaim.org/) to check aid accessibility.
+For the final testing, I used [WAVE tool](https://wave.webaim.org/) to check aid accessibility.
 
-Testing was focus to meet following criterias:
+Testing was focused to meet the following criterias:
 
 * All images and non-text elements has aria-labels and alt text and it is implemented correctly
-* Pages meets ontrast levels
+* Pages meet contrast levels
 
 ---
 
@@ -291,8 +291,8 @@ Testing was focus to meet following criterias:
 
 ### Fixing the issues
 
-1. Change the background of contact form
-2. Change headings' sizes to meet sequention
+1. Change the background of the contact form
+2. Change headings' sizes to meet sequential
 
 ---
 
@@ -302,17 +302,17 @@ Testing was focus to meet following criterias:
 
 **Navigation menu links**
 
-Testing was performed for all html pages independenly. This was done by entering followqing html addreses to the address line on browser.
+Testing was performed for all HTML pages independently. This was done by entering the following HTML addresses into the address line on the browser.
 
-| Navigation menu link | Page to Load    |
-| -------------------- | --------------- |
-| Home                 | index.html      |
-| Contact              | contact.html    |
-| Gallery              | gallery.html    |
-| 404                  | 404.html        |
+| Navigation menu link | Page to Load |
+| -------------------- | ------------ |
+| Home                 | index.html   |
+| Contact              | contact.html |
+| Gallery              | gallery.html |
+| 404                  | 404.html     |
 
 
-All links were corectly connected to the desired labeling in Navigation menu list.
+All links were correctly connected to the desired labeling in the Navigation menu list.
 
 <br>
 
@@ -320,7 +320,7 @@ All links were corectly connected to the desired labeling in Navigation menu lis
 
 **Contact form testing**
 
-The form was tested to make sure that it is fully functional and all submitions will be received to my email.
+The form was tested to make sure that it is fully functional and that all submitions will be received to my email.
 
 
 Steps to test:
@@ -335,12 +335,12 @@ Steps to test:
 
 Expected:
 
-Unfilled fiels were showing error message with suggestion to enter information. By filling all the neccessary fields in the form, it submits without warnings and user is redirected to submition confirmation and thank you page.
+Unfilled fields were showing error messages with a suggestion to enter information. By filling in all the necessary fields in the form, it submits without warnings and the user is redirected to the submition confirmation and thanks page.
 
 
 Actual:
 
-The submition worked as expected.
+The submission worked as expected.
 
 
 <br>
@@ -349,12 +349,12 @@ The submition worked as expected.
 
 **Social Icons in the Footer**
 
-Testing was performed on Ionicons by clicking and hovering on each icon to ensure that all links are working, opened in the new tab and has animation on hovered social icon.
+Testing was performed on Ionicons by clicking and hovering on each icon to ensure that all links are working, opened in the new tab and has animation on the hovered social icon.
 
 <br>
 Expected:
 
-An social icons' links opens in a new browser tab. Email icon opens a default email application on device with ready to send window to targeted email address.
+Social icons' links open in a new browser tab. The email icon opens a default email application on the device with ready to send window to the targeted email address.
 
 <br>
 Actual:
@@ -403,7 +403,7 @@ no errors were returned when running via the official [W3C Jigsaw validator](htt
 
 ### Unfixed Bugs
 
-Responsivnes worked for all the website on all devices with exception for smaller screen devices at 404.html landscape orientation. I was unable resolve this issue with my wishfull design.
+Responsiveness worked for all the websites on all devices with an exception for smaller screen devices at 404.html landscape orientation. I was unable to resolve this issue with my wishful design.
 
 <br>
 
@@ -428,12 +428,21 @@ Git commands were used via Git Easy (extension for Visual Studio Code).
 The website was deplayed to Github paeges following these steps:
 
 1. In the Github repository, click on the Settings icon
-2. On the meniu in left side select "Pages"
-3. In the "Build and deplayment" section select Source "Deplay from a branch".
-4. In the Branch section select "main" and "root" folder. 
+![Settings](docs/readme_images/deployment_1.png) 
+
+2. On the menu on the left side select "Pages"
+![Pages](docs/readme_images/deployment_2.png)
+
+3. In the "Build and deployment" section select Source "Deplay from a branch".
+![Build and deployment](docs/readme_images/deployment_3.png)
+
+4. In the Branch section select "main" and "root" folders. 
 5. Click Save.
 
-The live site link will be displayed at the top of GitHub Pages section in a blue color. Below the link you can find "Visit site" button.
+<br>
+
+The live site link will be displayed at the top of GitHub Pages section in a blue color. 
+![Publish](docs/readme_images/deployment_4.png)
 
 <br>
 
@@ -471,4 +480,4 @@ The live site link will be displayed at the top of GitHub Pages section in a blu
 
 ### Media
 
-All photographs are copyrighted and belongs to Simon Paske. 
+All photographs are copyrighted and belong to Simon Paske. 
