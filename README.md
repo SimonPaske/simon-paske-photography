@@ -402,6 +402,24 @@ Everything works as expected.
 
 ---
 
+**Read me/ Show less testing**
+
+Testing was performed by clicking on the "Read me" and "Show less" buttons.
+
+
+Expected:
+
+By clicking on the "Read me" button, the text is expanding. By clicking on the "Show less" text is collapsing.
+
+
+Actual:
+
+Everything works as expected.
+
+<br>
+
+---
+
 
 ### Validator testing
 
