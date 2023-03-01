@@ -516,6 +516,8 @@ The live site link will be displayed at the top of the GitHub Pages section in a
 
 <br>
 
-### Media
+## Media
 
-All photographs are copyrighted and belong to Simon Paske. 
+All photographs are copyrighted and belong to:
+
+ Simon Paske ©
